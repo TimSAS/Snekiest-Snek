@@ -4,9 +4,20 @@
 ;our main, calls all other functions
 (define (main ws)
   (big-bang ws
-    [to-draw drawFunction]
-    [on-tick tickFunction]
-    [stop-when stopFunction]
-    [on-key keyFunction]
+    [to-draw drawSnek]
+    [on-tick tickSnek]
+    [stop-when stopSnek]
+    [on-key keySnek]
     ))
 
+;Function drawSnek
+(define (drawSnek ws) #true)
+
+;Function tickSnek
+(define (tickSnek ws) #true)
+
+;Function stopSnek
+(define (stopSnek ws) #true)
+
+;Function keySnek
+(define (keySnek ws k) #true)
