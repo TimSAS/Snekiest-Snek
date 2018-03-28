@@ -19,15 +19,19 @@
     ))
 
 ;Function drawSnek
+;goes through snekParts and draws them, pretty simple
 (define (drawSnek ws) #true)
 
 ;Function tickSnek
+;movement of snek
 (define (tickSnek ws) #true)
 
 ;Function stopSnek
+;determines when it's game over - either when hit the wall, or when eats itself
 (define (stopSnek ws) #true)
 
 ;Function keySnek
+;just changes the direction
 (define (keySnek ws k) #true)
 
 ;starting the game:
