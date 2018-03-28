@@ -29,3 +29,7 @@
 
 ;Function keySnek
 (define (keySnek ws k) #true)
+
+;starting the game:
+(define ourGame (make-worldState (cons (make-snekPart (make-posn 400 400) 1 12) '()) (make-apple (make-posn 600 600) 13)))
+(main ourGame)
